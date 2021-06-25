@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZegoRecorderExample</string>
+    <string name="playback_title">数据流录制回放</string>
+    <string name="enter_url_address">请输入TaskID</string>
+    <string name="tips_task_id">Task Id：</string>
+    <string name="setting">设置</string>
+    <string name="save">保存</string>
+    <string name="default_api_env_url">https://cloudrecord-sh.zego.im</string>
+</resources>

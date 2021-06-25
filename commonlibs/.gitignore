@@ -1,0 +1,10 @@
+/build
+/libs/symbols/
+/libs/armeabi-v7a/libZegoRecorderPlayback.so
+/libs/armeabi-v7a/libZegoExpressEngine.so
+/libs/arm64-v8a/libZegoRecorderPlayback.so
+/libs/arm64-v8a/libZegoExpressEngine.so
+/libs/ZegoExpressEngine.jar
+/libs/zegorecorderplayback.jar
+/libs/zegodocsview.aar
+/libs/zegowhiteboardview.aar

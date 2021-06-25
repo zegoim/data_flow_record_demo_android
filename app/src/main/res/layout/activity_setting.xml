@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SettingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp">
+
+                <ImageView
+                    android:id="@+id/setting_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:scaleType="center"
+                    android:src="@drawable/go_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/setting"
+                    android:textColor="@color/text_black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/setting_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="@string/save"
+                    android:textColor="@color/text_blue"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/versions_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineSpacingMultiplier="1.5"
+                android:gravity="center"
+                tools:text="playback: 210617_205312-master-0-g1b6200480d-bn33
+\nvideo: 2.7.0.1132_customer_video_whiteboard
+\napp: 1.1.1.1
+\ndocs: 1.1.1.1
+\nwhiteboard: 1.1.1.1
+" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
